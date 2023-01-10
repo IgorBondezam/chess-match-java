@@ -28,8 +28,15 @@ public class Position {
         this.collumn = collumn;
     }
 
+    public void setValues(int row, int collumn){
+        this.row = row;
+        this.collumn = collumn;
+    }
+
+
     @Override
     public String toString(){
         return row + ", " + collumn;
     }
+
 }
